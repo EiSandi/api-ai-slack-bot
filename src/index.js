@@ -15,8 +15,8 @@ const http = require('http');
 const Entities = require('html-entities').XmlEntities;
 const decoder = new Entities();
 
-const apiAiAccessToken = process.env.accesstoken;
-const slackBotKey = process.env.slackkey;
+const apiAiAccessToken = "4f49376394f245c4a236bd54eda2a9cb";
+const slackBotKey = "xoxb-191089035697-6CZ0OyRvBf8j3jaGz2fDd6SF";
 
 const apiAiService = apiai(apiAiAccessToken);
 
